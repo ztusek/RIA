@@ -6,7 +6,8 @@
 	$app->get(
 	"/test/{ime}",
 	function ($ime) {
-		echo "<h1>Hello! $ime</h1>;
+		echo "<h1>Hello! $ime</h1>";
 	}
 	);
+	$app->handle();
 ?>
